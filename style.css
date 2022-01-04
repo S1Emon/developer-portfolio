@@ -9,7 +9,7 @@ h1{
 .orenge{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
 
 }
@@ -39,8 +39,8 @@ section{
 }
 hr{
     width: 60%;
-    margin-top: 85px;
-    margin-bottom: 85px;
+    margin-top: 105px;
+    margin-bottom: 105px;
 }
 .button2{
     color: white;
@@ -54,7 +54,9 @@ hr{
 .dream-big{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position:bottom right;
+    background-size: cover;
+
 }
 p{
     color: rgb(104, 103, 103);
